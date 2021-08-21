@@ -3,3 +3,11 @@ ul{
     padding-left: 0;
     font-size: 80%;
 }
+
+.activo{
+    border: 2px solid lightgreen;
+}
+
+.inactivo{
+    border: 2px solid indigo;
+}

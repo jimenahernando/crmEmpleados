@@ -29,7 +29,7 @@ export class AppComponent {
         email: 'ceciliahernando@live.com',
         foto: 'https://randomuser.me/api/portraits/women/38.jpg',
         departamento: 'marketing',
-        estado: true,
+        estado: false,
       }
     ];
   }

@@ -12,3 +12,8 @@
 
 ## Tarea 3 
 1. Iterar dentro del ngFor el componen empleado pasando a dicho componente el objeto empleado
+2. Crear una card para cada empleado
+
+## Tarea 4
+1. Cada empleado tendra uncolor de borde en funcion de su estado: activado (verde) / desactivado (rojo)
+2. Cada empleado dentro de su ficha tiene un boton que permitira cambiar su estado
