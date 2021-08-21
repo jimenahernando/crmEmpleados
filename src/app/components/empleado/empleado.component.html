@@ -9,6 +9,6 @@
                 <li>Departamento: {{empleado.departamento}}</li>
             </ul>
         </div>
-        <a href="#" class="btn" [ngClass]="{ 'btn-danger': empleado.estado, 'btn-success': !empleado.estado }" [innerHTML]="(empleado.estado) ? 'Desactivar' : 'Activar' "></a>
+        <button class="btn" [ngClass]="{ 'btn-danger': empleado.estado, 'btn-success': !empleado.estado }" [innerHTML]="(empleado.estado) ? 'Desactivar' : 'Activar' " (click)="cambiarEstado(empleado)"></button>
     </div>
 </div>

@@ -36,6 +36,6 @@ export class AppComponent {
 
   onEmpleadoEnviado(pEmpleado: Empleado){
     this.arrEmpleados.push(pEmpleado);
-    console.log(this.arrEmpleados)
+    // console.log(this.arrEmpleados)
   }
 }

@@ -17,7 +17,7 @@ export class ListEmpleadosComponent implements OnInit {
 
   ngOnInit(): void {
     // para corroborar que me esta llegando el array correpsondiente
-    console.log(this.empleados);
+    // console.log(this.empleados);
   }
   
   ngDoCheck():void{

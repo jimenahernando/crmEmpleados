@@ -22,7 +22,11 @@ export class EmpleadoComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    console.log(this.empleado);
+    // console.log(this.empleado);
+  }
+
+  cambiarEstado(pEmpleado: Empleado){
+    pEmpleado.estado = !pEmpleado.estado;
   }
 
 }
