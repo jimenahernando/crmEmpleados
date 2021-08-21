@@ -1,0 +1,9 @@
+<h2 class="my-3">Lista de Empleados</h2>
+<section class="row g-4">
+    <article class="col-6 col-md-4" *ngFor="let empleado of empleados">
+        <!-- el empleado e la izquierda es la propiedad que vamos a crear
+        en el component hijo y el empleado de la derecha es el item del array -->
+        <app-empleado [empleado]="empleado"></app-empleado>
+    </article>
+
+</section>
